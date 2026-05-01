@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D&D Character Creator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="page-wrapper">
+
+    <!-- Top Header -->
+    <header class="site-header">
+      <h1>D&D Character Creator</h1>
+      <p>Create, manage, and save your character sheet</p>
+    </header>
+
+    <!-- Navbar Tabs -->
+    <nav class="tab-navbar">
+      <a href="index.html" class="tab-link">Ability Scores</a>
+      <a href="combat.html" class="tab-link active">Combat</a>
+      <a href="Skills.html" class="tab-link">Skills</a>
+      <a href="inventory.html" class="tab-link">Inventory</a>
+      <a href="notes.html" class="tab-link">Notes</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="content-panel">
+
+      <section class="section-header">
+        <h2>Combat</h2>
+        <p>
+          Set your core character stats and apply any modifiers below.
+        </p>
+      </section>
+
+      <section>
+            <h3>Attacks</h3>
+
+            <div class="info-card">
+            <button type="button" id="addAttackBtn" class="add-btn">Add Attack</button>
+            <div id="attackContainer" class="attack-container"></div>
+            </div>
+        </section>
+
+      
+
+    </main>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
